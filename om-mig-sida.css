@@ -2,25 +2,86 @@ body{
     background-color: rgb(114, 157, 241);
 }
 
-h1{
-        text-align: center;
-        position: -webkit-sticky;
+.headerkonatiner {
+    text-align: center;
+    top: 20px;
         position: sticky;
+}
+
+h1{
         top: 0;
         background-image: url(./bilder/pattern-checkered-pattern-design.jpg);
         border: 2px solid #1e5feb;
 }
 
-.Porträtt {
-    width: 400px;
-    float: right;
-    z-index: -1;
+.overrubrik {
+    text-align: center;
+    font-size: 150%;
 }
 
-img {
+.vaxholm-bild {
+    width: 32%;
     float: right;
 }
 
-.färg {
-    background-color: blue;
+.Meny {
+    color: black;
+    position: absolute;
+    text-align: center;
+    font-size: 125%;
+    background-color: whitesmoke;
+    top: -20px;
+}
+.Meny:hover {
+  box-shadow: inset 100px 0 0 0 #121e56;
+  color: white;
+}
+
+.left {
+    left: 40%;
+}
+
+.right{
+    left: 55%;
+}
+
+
+.text {
+    font-size: 18px;
+}
+
+.poträtt{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    right: 40%;
+}
+
+.kontainer {
+    width: 65%;
+background-color: gray;
+    display: flex;
+    border: 10px solid darkgray;
+    border-radius: 10px;
+    align-items: baseline; 
+}
+
+.item {
+    width: 33%;
+    background-color: darkslategray;
+}
+
+.kontainerbild{
+    width: 100%;
+    float: right;
+}
+
+.lista {
+    border: 5px solid rgb(191, 191, 191);
+    border-radius: 10px;
+    width: 22%;
+    background-color: #e4e4e4;
+    text-align: center;
+    position: absolute;
+    right: 50%;
 }
