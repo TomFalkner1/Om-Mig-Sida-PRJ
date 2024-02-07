@@ -2,7 +2,7 @@ body{
     background-color: rgb(114, 157, 241);
 }
 
-.headerkonatiner {
+.headerkontainer {
     text-align: center;
     top: 20px;
         position: sticky;
@@ -37,11 +37,11 @@ h1{
   color: white;
 }
 
-.left {
+.vanster {
     left: 40%;
 }
 
-.right{
+.hoger{
     left: 55%;
 }
 
@@ -54,7 +54,11 @@ h1{
     position: absolute;
     width: 20%;
     height: auto;
-    right: 40%;
+    right: 39%;
+    border: 10px solid rgb(174, 174, 174);
+    border-radius: 10px;
+    box-shadow: 4px 6px 22px 0 black;
+    
 }
 
 .kontainer {
@@ -66,7 +70,7 @@ background-color: gray;
     align-items: baseline; 
 }
 
-.item {
+.kontaineritem {
     width: 33%;
     background-color: darkslategray;
 }
